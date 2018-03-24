@@ -1,0 +1,42 @@
+# Site Settings
+title: Irma Veller | Front-end Developer
+email: lorsange@mail.ru
+description: My personal page.
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lorsange.github.io" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: lorsange # it will appear on each page title after '|'
+user_description: trying to learn.
+<!-- disqus_username: disqus_username -->
+
+# Social Media
+# Remove the item if you don't need it
+github_username: lorsange
+facebook_username: dominolorsange
+twitter_username: do_lorsange
+instagram_username: lorsange
+linkedin_username: irma-veller-83598140
+medium_username: lorsange.domino
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
